@@ -1,6 +1,6 @@
 [project]
 name = "openstreetmap-mcp"
-version = "1.0.0"
+version = "1.0.1"
 description = "A modular, enterprise-grade OpenStreetMap MCP server with advanced geospatial analytics."
 readme = "README.md"
 authors = [
