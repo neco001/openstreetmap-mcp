@@ -46,10 +46,10 @@ Add this to your `mcp_config.json`:
     "osm-mcp": {
       "command": "python",
       "args": [
-        "c:/path/to/osm-mcp-server/src/osm_mcp_server/server.py"
+        "c:/path/to/osm-mcp-server/src/openstreetmap_mcp/server.py"
       ],
       "env": {
-        "PYTHONPATH": "c:/path/to/osm-mcp-server/src/osm_mcp_server"
+        "PYTHONPATH": "c:/path/to/osm-mcp-server/src/openstreetmap_mcp"
       }
     }
   }
@@ -66,7 +66,7 @@ uv sync
 ## 📂 Project Structure
 
 ```text
-src/osm_mcp_server/
+src/openstreetmap_mcp/
 ├── server.py           # Main Entry Point
 ├── instance.py         # FastMCP lifecycle
 ├── client.py           # HTTP logic for OSM/OSRM/Overpass
