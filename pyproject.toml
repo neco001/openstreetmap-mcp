@@ -1,19 +1,22 @@
 [project]
-name = "osm-mcp-server"
-version = "0.1.1"
-description = "An OpenStreetMap MCP server"
+name = "openstreetmap-mcp"
+version = "1.0.0"
+description = "A modular, enterprise-grade OpenStreetMap MCP server with advanced geospatial analytics."
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
- "aiohttp>=3.11.13",
- "mcp[cli]>=1.3.0",
+authors = [
+    { name = "Specter Hub", email = "neco.001@gmail.com" }
 ]
-[[project.authors]]
-name = "Jagan Shanmugam"
-email = "jaganshanmugam@outlook.com"
+requires-python = ">=3.10"
+dependencies = [
+    "aiohttp>=3.9.0",
+    "mcp[cli]>=1.0.0",
+    "shapely>=2.0.0",
+    "haversine>=2.8.0",
+    "geojson>=3.1.0",
+]
 
 [build-system]
-requires = [ "hatchling",]
+requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project.scripts]

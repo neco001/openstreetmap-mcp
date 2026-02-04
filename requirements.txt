@@ -1,0 +1,5 @@
+aiohttp>=3.9.0
+mcp>=1.0.0
+shapely>=2.0.0
+haversine>=2.8.0
+geojson>=3.1.0
